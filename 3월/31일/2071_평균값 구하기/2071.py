@@ -5,4 +5,4 @@ for _ in range(1,t+1):
     sum = 0
     for i in data:
         sum+=i
-    print("#" + str(_), int(sum/10))
+    print("#" + str(_), round(sum/10))
